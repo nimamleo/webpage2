@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start header */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+.navbar_items{
+    margin: 0 10px;
+    list-style-type: none;
+    font-size: 1rem;
+    text-align: center;
+    width: 90px;
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 10px 1rem 12rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.btn{
+    margin: 1rem 14rem;
+    background-color: #0050c8;
+    border: 1px solid #0050c8;
+    color: white;
+    padding: .8rem 1.4rem;
+    border-radius: 8px;
+}
+
+.next_header{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5rem 14rem;
+    align-items: center;
+}
+
+.right_1{
+    flex-basis: 50%; 
+}
+.left_1{
+    flex-basis: 50%;
+}
+
+.img_next{
+    width: 100%;
+}
+
+.title_header{
+    font-size: 2.2rem;
+    width: 24rem;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+.text_header{
+    font-size: 1.1rem;
+    width: 30rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.next_btn{
+    padding: .6rem 3rem;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.btn1{
+    background-color: #0050c8
+}
+
+.btn2{
+    background-color: #8BC34A;
+}
+
+
+/* end header */
+/* start main */
+.main_title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.main_title2{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.main_contanor{
+    display: flex;
+    margin: 3rem auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.main_item{
+    flex-basis: 14rem;
+}
+
+.item_title{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.item_text{
+    line-height: 2rem;
+}
+
+.main_image{
+    display: flex;
+    margin: 4rem auto;
+    justify-content: center;
+}
+/* end main */
+
+/* start comment */
+.comment{
+    background-color: #2F5BEA;
+}
+
+.comment_title{
+    text-align: center;
+    color: white;
+    padding-top: 2.5rem;
+}
+
+.comment_text{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.comment_boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.box_item{
+    border: 1px solid white;
+    margin: 2rem 1rem;
+    flex-basis: 19rem;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 13rem;
+}
+
+.person_comment{
+    margin: 1rem;
+    font-weight: lighter;
+    color: gray;
+}
+
+.perosn_info{
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: .5rem;
+}
+
+.person_name{
+    padding-left: .5rem;
+}
+
+.companies{
+    display: flex;
+    justify-content: center;
+}
+
+.company_images{
+    display: block;
+    margin: 4rem 3rem 1.5rem 2rem;
+}
+/* end comment */
+/* start project */
+.pj_title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.507);
+    margin-top: 2rem;
+}
+.pj_title2{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.pj_image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75rem;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+}
+.image_item{
+    margin-bottom: 1.9rem;
+}
+/* end project */
+/* start footer */
+.footer{
+    background-color: #2F5BEA;
+    height: 10rem;
+    
+}
+
+.holder{
+    display: flex;
+    justify-content: space-around;
+    padding: 3.6rem;
+}
+
+.footer_text{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.input_footer{
+    background-color: white;
+    display: flex;
+    padding: .5rem 1rem .5rem .7rem;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.footer_btn{
+    background-color: #2F5BEA;
+    border: none;
+    height: 2.2rem;
+    width: 2.7rem;
+    
+}
+.img_footer{
+    background-color: #2F5BEA;
+    padding: .2rem;
+}
+
+.email{
+    border: none;
+}
+
+.footer_text{
+    text-align: center;
+    padding-top: 1rem;
+}
+/* end footer */
+.final{
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+}
+
+.final p:nth-child(1){
+    padding: .5rem 0 .5rem 19rem ;
+}
+.final p:nth-child(2){
+    padding: .5rem 19rem .5rem 0 ;
+}
+
+
